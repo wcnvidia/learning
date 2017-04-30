@@ -16,7 +16,7 @@ import {Routes} from "@angular/router";
 
 const routeConfig: Routes =[
   {path:'',component:HomeComponent},
-  {path:'product/:prodTitle'}
+  {path:'product/:prodTitle',component:ProductDetailComponent}
 ]
 @NgModule({
   declarations: [
